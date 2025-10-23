@@ -1,9 +1,3 @@
-Text cell <view-in-github>
-# %% [markdown]
-<a href="https://colab.research.google.com/github/elbse/PaletteAI/blob/main/PaletteAI.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-Code cell <J8nyD9yqKwgA>
-# %% [code]
 import streamlit as st
 import numpy as np
 import cv2
@@ -75,89 +69,25 @@ else:
 
 
 
-Execution output
-2KB
-	Stream
-		Requirement already satisfied: opencv-python in /usr/local/lib/python3.12/dist-packages (4.12.0.88)
-		Requirement already satisfied: scikit-learn in /usr/local/lib/python3.12/dist-packages (1.6.1)
-		Requirement already satisfied: matplotlib in /usr/local/lib/python3.12/dist-packages (3.10.0)
-		Requirement already satisfied: numpy<2.3.0,>=2 in /usr/local/lib/python3.12/dist-packages (from opencv-python) (2.0.2)
-		Requirement already satisfied: scipy>=1.6.0 in /usr/local/lib/python3.12/dist-packages (from scikit-learn) (1.16.2)
-		Requirement already satisfied: joblib>=1.2.0 in /usr/local/lib/python3.12/dist-packages (from scikit-learn) (1.5.2)
-		Requirement already satisfied: threadpoolctl>=3.1.0 in /usr/local/lib/python3.12/dist-packages (from scikit-learn) (3.6.0)
-		Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (1.3.3)
-		Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (0.12.1)
-		Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (4.60.1)
-		Requirement already satisfied: kiwisolver>=1.3.1 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (1.4.9)
-		Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (25.0)
-		Requirement already satisfied: pillow>=8 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (11.3.0)
-		Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (3.2.5)
-		Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.12/dist-packages (from matplotlib) (2.9.0.post0)
-		Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.12/dist-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
 
-Code cell <2VRNaYzpMBjJ>
-# %% [code]
 !git clone https://github.com/elbse/PalleteAI.git
 %cd PalleteAI
-Execution output
-0KB
-	Stream
-		Cloning into 'PalleteAI'...
-		warning: You appear to have cloned an empty repository.
-		/content/PalleteAI
 
-Code cell <4kbPLV5SNMRP>
-# %% [code]
 !ls
 
 
-Execution output
-0KB
-	Stream
-		sample_data
 
-Code cell <PoIQP8ssN0Cs>
-# %% [code]
 from google.colab import drive
 drive.mount('/content/drive')
 
 
-Execution output
-0KB
-	Stream
-		Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
 
-Code cell <vlrZ0ijjcTyO>
-# %% [code]
 !ls /content/drive/MyDrive/Colab\ Notebooks/
 
-Execution output
-0KB
-	Stream
-		'bitcoin_sentiment_analysis (1).ipynb'	 PaletteAI.ipynb
-		 bitcoin_sentiment_analysis.ipynb	 PalleteAI.txt
-		'Copy of PaletteAI.ipynb'		'Rock vs Mine Prediction.ipynb'
-		'Movie Recommendation System.ipynb'
 
-Code cell <koVjfvrxQhC4>
-# %% [code]
 !jupyter nbconvert --to script "/content/drive/MyDrive/Colab Notebooks/PaletteAI.ipynb"
 
 
-
-Execution output
-0KB
-	Stream
-		[NbConvertApp] Converting notebook /content/drive/MyDrive/Colab Notebooks/PaletteAI.ipynb to script
-		[NbConvertApp] Writing 2845 bytes to /content/drive/MyDrive/Colab Notebooks/PaletteAI.txt
-
-Code cell <MHE7RDYhQmjj>
-# %% [code]
-!mv "/content/drive/MyDrive/Colab Notebooks/PaletteAI.ipynb" app.py
-
-
-Code cell <5jcWgZNUdqlq>
-# %% [code]
 
 
 
