@@ -96,7 +96,7 @@ The app uses KMeans clustering algorithm to analyze the pixels in your image:
 <img width="824" height="585" alt="Image" src="https://github.com/user-attachments/assets/783813d5-11cd-4622-8cf6-0911b71cb3f2" />
 
 ### Download Feature
-
+<img width="234" height="53" alt="Image" src="https://github.com/user-attachments/assets/c7c427d9-47ae-446d-a5da-ab0e9d7e6371" />
 
 ## 🤝 Contributing
 
