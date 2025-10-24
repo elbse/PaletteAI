@@ -30,8 +30,8 @@ An intelligent color palette extraction tool powered by KMeans clustering and bu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/elbse/PalleteAI.git
-cd PalleteAI
+git clone https://github.com/elbse/PaletteAI.git
+cd PaletteAI
 ```
 
 2. Create a virtual environment (optional but recommended):
