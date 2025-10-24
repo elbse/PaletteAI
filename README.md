@@ -90,13 +90,13 @@ The app uses KMeans clustering algorithm to analyze the pixels in your image:
 ## 📸 Screenshots
 
 ### Main Interface
-Upload your image and adjust the number of colors using the intuitive sidebar controls.
+<img width="1919" height="909" alt="Image" src="https://github.com/user-attachments/assets/3116c617-0305-47f2-8a97-500002c6c0fb" />
 
 ### Color Palette Display
-View extracted colors with visual swatches, RGB values, and HEX codes.
+<img width="824" height="585" alt="Image" src="https://github.com/user-attachments/assets/783813d5-11cd-4622-8cf6-0911b71cb3f2" />
 
 ### Download Feature
-Export your color palette as a text file for easy reference.
+
 
 ## 🤝 Contributing
 
